@@ -1,3 +1,7 @@
+*{
+    padding: 0%;
+
+}
 * {
     padding: 0%;
     margin: 0%;
@@ -53,9 +57,4 @@ a:hover {
     background: linear-gradient(to right, #FF0D6A33, #0500FF33,#00FFE033);
     border-radius: 5px;
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.4);
-}
-
-
-.g_bg_color{
-    background: linear-gradient(to bottom, #FF0D6A, #0500FF, #00FFE0, #ffc400, #9900ff, #26ff00);
 }
