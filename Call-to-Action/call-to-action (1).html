@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: auto;
+            background: radial-gradient(#0000ff66, #00ff0022);
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+        section {
+            padding: 4rem;
+            text-align: center;
+        }
+        section > :first-child {
+            width: 75%;
+            margin: auto;
+            margin-bottom: 3rem;
+        }
+        section > :first-child h1 {
+            font-size: 60px;
+            margin-bottom: 2rem;
+            color: #1E0E62;
+        }
+        section > :first-child p {
+            font-size: 30px;
+            color: #15143966;
+        }
+        section > :nth-child(2) {
+            width: 50%;
+            margin: auto;
+            margin-bottom: 3rem;
+        }
+        section > :nth-child(2) button {
+            padding: 1rem 2rem;
+            background-color: #25DAC5;
+            color: white;
+            border: none;
+            font-size: 20px;
+            border-radius: 100px;
+            cursor: pointer;
+            width: 50%;
+        }
+        small {
+            font-size: 16px;
+            font-weight: 600;
+            color: #15143966;
+        }
+        /* responsive design for Mobile */
+        @media (max-width: 991px) {
+            section {
+                padding: 2rem;
+                margin-top: 5rem;
+                text-align: start;
+            }
+            section > :first-child {
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+            section > :first-child h1 {
+                font-size: 48px;
+            }
+            section > :first-child p {
+                font-size: 24px;
+            }
+            section > :nth-child(2) {
+                width: 100%;
+            }
+            section > :nth-child(2) button {
+                width: 100%;
+            }
+        }
+        /* responsive design for Tablet */
+        @media (min-width: 768px)and (max-width: 1040px){
+            section {
+                text-align: center;
+            }
+            section > :first-child {
+                width: 80%;
+                margin-bottom: 2rem;
+            }
+            section > :nth-child(2) {
+                width: 80%;
+            }
+            section > :nth-child(2) button {
+                width: 60%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Get Startup Framework</h1>
+            <p>Startup Framework contains components and complex blocks which can easily be integrated into any design.</p>
+        </div>
+        <!-- button  -->
+        <div>
+            <button>Purchase for $249</button>
+        </div>
+        <small>Commercial License</small>
+    </section>
+</body>
+</html>
